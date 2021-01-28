@@ -1,7 +1,7 @@
 # KGIS
 Public Spatial Data from Karnataka Geographic Information System - ಕರ್ನಾಟಕ ಭೌಗೋಳಿಕ ಮಾಹಿತಿ ವ್ಯವಸ್ಥೆ
 
-_______________________
+__________________________________________________________________________
 
 This project is used to download the spatial data shapefiles from the KGIS portal and convert them to cleaned, combined and zipped geopackage files for the following layers. The script `fetch-kgis-data.py` is used to fetch the data.
 
@@ -37,7 +37,8 @@ On MacOS:
 brew install unrar unzip
 ```
 
-----------------------
+__________________________________________________________________________
+
 ## Run the Script
 
 ```bash
@@ -52,7 +53,7 @@ Nikhil S Hubballi
 
 [Mail](mailto:nikhil@samashti.tech) | [LinkedIn](https://www.linkedin.com/in/nikhilhubballi/) | [Twitter](https://twitter.com/samashti_)
 
-______________________
+__________________________________________________________________________
 
 ```bash
 ├──
