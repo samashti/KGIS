@@ -1,3 +1,8 @@
+"""
+@author: Nikhil S Hubballi
+@mail: nikhil@samashti.tech
+"""
+
 # imports
 import os
 # import json
@@ -191,12 +196,11 @@ if __name__ == "__main__":
     out = './data/output'
     create_dir(out)
 
-    tpath = os.path.join(raw, 'towns')
-    wpath = os.path.join(raw, 'wards')
-    vpath = os.path.join(raw, 'villages')
+    paths  = ['towns', 'wards', 'villages']
+    tpath, wpath, vpath = list(map(lambda x: os.path.join(raw, x), paths))
 
     # temp folders for extracting files.
-    rartmp = os.path.join(raw, 'rartmp')
-    ziptmp = os.path.join(raw, 'ziptmp')
+    tmps = ['rartmp', 'ziptmp']
+    rartmp, ziptmp = list(map(lambda x: os.path.join(raw, x), tmps))
 
     main()
